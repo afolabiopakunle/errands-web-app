@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <AppHeader />
+    <main class="container-fluid errand p-0">
+      <AppHeader />
+    </main>
   </div>
 </template>
 
