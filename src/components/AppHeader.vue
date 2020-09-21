@@ -51,6 +51,12 @@
 <script>
 export default {
   name: "AppHeader",
+  data() {
+    return {
+      // avatar: this.$faker().avatar(),
+    };
+  },
+  mounted() {},
 };
 </script>
 
