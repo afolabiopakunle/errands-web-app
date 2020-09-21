@@ -1,18 +1,15 @@
 <template>
   <div id="app">
     <main class="container-fluid errand p-0">
-      <AppHeader />
+      <router-view />
     </main>
   </div>
 </template>
 
 <script>
-import AppHeader from "./components/AppHeader";
 export default {
   name: "App",
-  components: {
-    AppHeader,
-  },
+  components: {},
 };
 </script>
 

@@ -2,9 +2,9 @@
   <div>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand ml-5" href="#">
+        <router-link to="/">
           <img src="../assets/logo-blue.png" style="width:110px; margin-top: -14px;" alt="logo" />
-        </a>
+        </router-link>
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"
@@ -61,4 +61,27 @@ export default {
 </script>
 
 <style scoped>
+.navbar {
+  justify-self: self-start;
+  background: #eef6f9;
+  box-shadow: 0 0.5rem 0.8rem rgba(182, 233, 252, 0.4);
+}
+
+.nav-item {
+  padding-right: 40px;
+  font-weight: 400;
+  cursor: pointer !important;
+  font-size: 18px;
+}
+
+.notification-box {
+  position: relative;
+  margin-right: 2rem;
+}
+
+.material-icons {
+  vertical-align: middle;
+  margin-top: -2px;
+  color: #999999;
+}
 </style>
